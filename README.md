@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎮 Gamers Codex
 
-## Getting Started
+> *Seu diário de aventuras digitais — organize, acompanhe e compartilhe sua jornada gamer.*
 
-First, run the development server:
+---
 
-```bash
+## 📌 Sobre o projeto
+
+O **Gamers Codex** é um sistema web desenvolvido para gerenciar sua biblioteca de jogos de forma prática e completa. Com ele, você pode:
+
+✅ Cadastrar seus jogos favoritos  
+✅ Criar e gerenciar conquistas personalizadas para cada jogo  
+✅ Marcar jogos como **zerados**  
+✅ Acompanhar a progressão de conquistas  
+✅ Visualizar seu perfil com todos os jogos finalizados ou em andamento  
+✅ Pesquisar seu próprio perfil a qualquer momento
+
+Cada usuário possui sua conta individual e pode gerenciar seus registros de forma totalmente personalizada.
+
+---
+
+## ✨ Funcionalidades principais
+
+- 👤 **Autenticação de usuários** (conta individual)  
+- 🎮 **Cadastro de jogos**  
+- 🏆 **Cadastro de conquistas personalizadas**  
+- ✅ **Marcação de jogos zerados**  
+- 📈 **Progressão de conquistas**  
+- 🔍 **Pesquisa e visualização de perfil do usuário**
+
+---
+
+## 🚀 Tecnologias utilizadas
+
+> *(Preencha abaixo com a stack do seu projeto)*
+
+- **Frontend:** React / Next.js  
+- **Backend:** Node.js / Java Spring Boot  
+- **Banco de dados:** PostgreSQL / MongoDB
+
+---
+
+## ⚙️ Como rodar o projeto
+
+1. Clone o repositório:  
+
+   ```bash
+   git clone https://github.com/seu-usuario/gamers-codex.git
+
+Instale as dependências:
+
+bash
+Copiar
+Editar
+npm install
+Configure as variáveis de ambiente no arquivo .env
+
+Execute o projeto:
+
+bash
+Copiar
+Editar
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Abra o navegador e acesse: <http://localhost:3000>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+💡 Próximos passos / melhorias
+🌐 Compartilhamento público do perfil
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🥇 Ranking de conquistas entre usuários
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🔗 Integração com APIs de plataformas (Steam, Xbox, PlayStation)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📱 Versão mobile
