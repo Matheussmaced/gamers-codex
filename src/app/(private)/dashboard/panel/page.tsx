@@ -1,3 +1,4 @@
+import CardGameComponent from "@/components/layout/cardGameComponent";
 import CardComponent from "@/components/ui/cardComponent";
 import InputField from "@/components/ui/inputField";
 import MainCard from "@/components/ui/mainCard";
@@ -64,6 +65,10 @@ export default function panelPage() {
 
             <button className="bg-green-600 w-full rounded-xl py-2 mt-2 cursor-pointer hover:bg-green-700">+ Adicionar Jogo</button>
           </CardComponent>
+
+          <div className="grid-cols-4 grid gap-4 justify-center">
+            <CardGameComponent />
+          </div>
         </div>
       </div>
     </MainCard>
