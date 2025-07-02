@@ -30,7 +30,7 @@ export default function PrivateLayout({
       >
         <div className="flex gap-6">
           <SideBar />
-          <div className="w-screen h-screen bg-center bg-no-repeat bg-cover" style={{ backgroundImage: "url('/background.png')" }}>
+          <div className="w-screen h-screen bg-center bg-no-repeat bg-cover pt-4" style={{ backgroundImage: "url('/background.png')" }}>
             <div className="ml-56">
               {children}
             </div>
